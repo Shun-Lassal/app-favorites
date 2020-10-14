@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  background-color:#353531;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+header {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  padding-top:10px;
+
+}
+
+span {
+
+}
+
+span#accueil {
+  padding-left:100px;
+  font-size:30px;
+  color:white;
+}
+
+span#n {
+  font-size:30px;
+  color:white;
+}
+
+span#reddit {
+  font-size:30px;
+  color:white;
+}
+
+span#messenger {
+  padding-right:200px;
+  font-size:30px;
+  color:white;
+}
+
+span#tn{
+  padding-top:50px;
+  padding-left:40px;
+}
+
+span#treddit{
+  padding-top:50px;
+}
+
+span#tmessenger{
+  padding-top:50px;
+}
+
+main {
+  background-color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+h1 {
+  text-align:center;
+  padding-top:20px;
+}
+
+@keyframes blink {
+  0%{color:black;}
+  50%{color:grey;}
+  100%{color:black;}
+}
+
+#tn{
+  font-size:40px;
+  padding-left:20px;
+  animation: blink 5s infinite;
+}
+#treddit{
+  font-size:40px;
+  padding-left:60px;
+  animation: blink 5s infinite;
+}
+
+#tmessenger{
+  font-size:40px;
+  padding-left:20px;
+  animation: blink 5s infinite;
+}
+
+a {
+  text-decoration:none;
+  color:white;
+  padding-right:3px;
+  padding-top:2px;
+}
+
+a:hover {
+
+  color:grey;
+}
+
+div.text {
+  display:flex;
+  justify-content: center;
+}
+
+p {
+  padding-top:10px;
+  width:1000px;
+  text-align:center;
+
+}
+
+main div#heads{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+div#images {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding-top:10px;
+  padding-bottom:50px;
+}
+
+img {
+  width: 350px;
+  height: 200px;
+}
+
+main img:hover{
+  box-shadow: 10px 10px grey;
+
+}
